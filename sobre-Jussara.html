@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="keywords" content="eventos, organização, show, festival, workshop">
+	<meta name="description" content="Eventos Corporativos, Sociais, Esportivos e Culturais em todo Brasil">
+	<title> OE Organização de Eventos</title>
+
+	<!-------Link Font Awesome ------------------------------------------------------------------->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+		integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+	<!-------------Material Icon-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+	<!-------CSS ------------------------------------------------------------------->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+	<!---------------------------Swiper Js --------------------------------------------------------------->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="menu-header">
+				<section id="logo">
+					<img src="img/logo.png" alt="Logo">
+				</section>
+				<nav>
+					<ul class="menu">
+						<li><a href="home.html">Home</a></li>
+						<li><a href="sobre.html">Sobre</a></li>
+						<li class="event-drop">
+							<a href="Eventos.html">Eventos<span><i class="fa-solid fa-angle-down"></i></span></a>
+							<ul class="menu-drop">
+								<li><a href="evento_festivais.html">Festivais</a></li>
+								<li><a href="evento_shows.html">Shows</a></li>
+								<li><a href="evento_workshops.html">Workshops</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Contatos</a></li>
+
+					</ul>
+					<form action="">
+						<div class="search">
+							<input type="search" autofocus required>
+							<i class="fa fa-search"></i>
+						</div>
+						<button type="button" class="clear-btn" onclick="clearInput()">
+							Clear
+						</button>
+					</form>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div id="container page-sobre">
+		<section id="cabecalho">
+			<div class="text_content">
+				<h1> Sobre Nós</h1>
+				<p> A OE Eventos atua no mercado de Organização de eventos há 12 anos e já teve diversas oportunidades
+					de atuar em festivais conhecidos nacionalmente. Fomos premiados três vezes pela
+					<strong>ANOE:</strong> <span> Associação Nacional de Organizadores de Eventos </span> e conhecidos
+					de norte a sul do país pela qualidade e responsabilidade no que fazemos.</p>
+				<p> A OE Eventos conta com uma equipe treinada e capacitada para dar apoio à logística do evento bem
+					como a realização de cerimonias e da Recepção.</p>
+				<div class="read-more-content">
+					<p> Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mim que vai caçá sua turmis! Aenean
+						aliquam molestie leo, vitae iaculis nisl. Nulla id gravida magna, ut semper sapien. Mais vale um
+						bebadis conhecidiss, que um alcoolatra anonimis.</p>
+					<p> Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Hoje é sexta-feris,
+						dia da maldadis! Diuretics paradis num copo é motivis de denguis. Casamentiss faiz malandris se
+						pirulitá.</p>
+				</div>
+				<a class="read-more">Leia mais</a>
+			</div>
+			<div class="profile-area">
+				<div class="outer-circle">
+
+					<span><i class="fa-solid fa-map-location-dot"></i></span>
+					<span><i class="fa-solid fa-people-group"></i></span>
+					<span class="material-icons-outlined">festival</span>
+					<span class="material-icons-outlined">celebration</span>
+
+				</div><!-----End of Outer Circle-->
+				<div class="inner-circle">
+					<img src="./img/sobre_pag.jpg">
+				</div>
+
+			</div><!-----End of Profile Area-->
+
+		</section>
+		<!-----------------------------------------------------------Serviços ------------------------------------>
+		<section class="servicos">
+			<span class="title-services">
+				<p>Conheça nossos serviços:</p>
+			</span>
+			<div class="servicos_detalhes">
+				<dt>
+					<span class="title">Planejamento de Casamentos e Aniversários</span>
+					<span class="toggle-btn inline-btn">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+					</span>
+				</dt>
+				<dd class="descricao">
+					Transformamos sonhos em realidade, cuidando de todos os detalhes para que casamentos e aniversários
+					sejam eventos inesquecíveis, com planejamento personalizado e execução impecável.
+				</dd>
+			</div>
+			<div class="servicos_detalhes">
+				<dt>
+					<span class="title">Eventos Temáticos e Personalizados</span>
+					<span class="toggle-btn inline-btn">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+					</span>
+				</dt>
+				<dd class="descricao">
+					Criamos experiências únicas com eventos temáticos feitos sob medida. Do conceito à decoração, tudo é
+					pensado para refletir a personalidade e os desejos dos clientes.
+				</dd>
+			</div>
+			<div class="servicos_detalhes">
+				<dt>
+					<span class="title">Assessoria Completa de Produção de Eventos</span>
+					<span class="toggle-btn inline-btn">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+					</span>
+				</dt>
+				<dd class="descricao">
+					Oferecemos suporte total na produção de eventos, desde o planejamento inicial até a execução final,
+					garantindo que cada detalhe seja tratado com profissionalismo e excelência.
+				</dd>
+			</div>
+			<div class="servicos_detalhes">
+				<dt>
+					<span class="title">Locação de Equipamentos e Decoração</span>
+					<span class="toggle-btn inline-btn">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+					</span>
+				</dt>
+				<dd class="descricao">
+					Disponibilizamos uma ampla gama de equipamentos e itens de decoração de alta qualidade para compor o
+					seu evento, garantindo funcionalidade e estética impecáveis.
+				</dd>
+			</div>
+			<div class="servicos_detalhes">
+				<dt>
+					<span class="title">Gestão de Fornecedores e Logística</span>
+					<span class="toggle-btn inline-btn">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+					</span>
+				</dt>
+				<dd class="descricao">
+					Coordenamos e integramos fornecedores, prazos e serviços, assegurando que tudo aconteça de forma
+					harmoniosa e dentro do cronograma.
+				</dd>
+			</div>
+			<div class="servicos_detalhes">
+				<dt>
+					<span class="title">Organização de Eventos Corporativos</span>
+					<span class="toggle-btn inline-btn">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+					</span>
+				</dt>
+				<dd class="descricao">
+					Planejamos e executamos eventos empresariais como reuniões, workshops, treinamentos e grandes
+					convenções, sempre alinhados aos objetivos e identidade da empresa.
+				</dd>
+			</div>
+			<div class="servicos_detalhes">
+				<dt>
+					<span class="title">Organização de Eventos Sociais</span>
+					<span class="toggle-btn inline-btn">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+					</span>
+				</dt>
+				<dd class="descricao">
+					Combinamos sofisticação e criatividade para realizar eventos sociais inesquecíveis, como festas de
+					debutantes, bodas e confraternizações familiares.
+				</dd>
+			</div>
+			<div class="servicos_detalhes">
+				<dt>
+					<span class="title">Organização de Eventos Esportivos</span>
+					<span class="toggle-btn inline-btn">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+					</span>
+				</dt>
+				<dd class="descricao">
+					Garantimos a estrutura necessária para eventos esportivos de pequeno ou grande porte, cuidando da
+					logística, segurança e experiência do público.
+				</dd>
+			</div>
+			<div class="servicos_detalhes">
+				<dt>
+					<span class="title">Organização de Eventos Culturais</span>
+					<span class="toggle-btn inline-btn">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+					</span>
+				</dt>
+				<dd class="descricao">
+					Promovemos eventos culturais que valorizam a arte e a expressão, como exposições, shows, peças
+					teatrais e festivais, proporcionando experiências enriquecedoras ao público.
+				</dd>
+			</div>
+
+			<p class="rodape"> A equipe de apoio da OE Eventos sempre atende a todos com toda disposição e gentileza.
+			</p>
+
+			<!---------------------------------------Formulário Contato e Whatsapp------------------------->
+			<div class="orcamento_ctt">
+				<div class="btn-contato">
+					<button class="btn btn-contato" id="btnContato"><span class="icon_ctt icon"><i
+								class="fa-solid fa-file-contract"></i></span>Entre em contato</button>
+				</div>
+				<div class="orcamento">
+					<a href="https://wa.me/5531991725528?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento!"
+						target="_blank">
+						<button class="btn btn-orcamento"><span class="icon_orc icon""><i class=" fa-brands
+								fa-square-whatsapp"></i></span>Solicite um Orçamento</button>
+					</a>
+				</div>
+			</div>
+
+			<!-- Formulário oculto -->
+			<div class="formulario-popup" id="formContato">
+				<div class="formulario-conteudo">
+					<div class="wrapper">
+						<div class="inner">
+							<span class="fechar" id="fecharForm"><i class="fa-solid fa-xmark"></i></span>
+							<form action="">
+								<h3>Vamos Conversar!</h3>
+								<div class="cabecalho_form">
+									<p>Compartilhe seus dados de contato para que nossos colaboradores possam te
+										contactar:</p>
+								</div>
+								<label class="form-group">
+									<input type="text" class="form-control" required>
+									<span>Seu Nome</span>
+									<span class="border"></span>
+								</label>
+								<label class="form-group">
+									<input type="text" class="form-control" required>
+									<span for="">Seu Email</span>
+									<span class="border"></span>
+								</label>
+								<label class="form-group">
+									<textarea name="" id="" class="form-control" required></textarea>
+									<span for="">Deixe sua Mensagem</span>
+									<span class="border"></span>
+								</label>
+								<button class="btn btn-enviar">Enviar
+									<i class="fa-solid fa-paper-plane"></i>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!---------------------------------------Fim de Serviços---------------------------------------------------->
+		<section class="testimonials">
+			<h1>Testemunhos</h1>
+			<div class="container swiper">
+				<div class="carousel swiper-wrapper">
+					<div class="testimonial swiper-slide">
+						<div class="head">
+							<div class="profile-area">
+								<div class="avatar">
+									<img src="./img/avatar/avatar-1.jpg">
+								</div>
+								<div class="info">
+									<h5>John Doe</h5>
+									<small>Software Developer</small>
+								</div>
+							</div>
+							<div class="stars">
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+							</div>
+						</div>
+						<p>
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+						</p>
+					</div>
+		
+					<div class="testimonial swiper-slide">
+						<div class="head">
+							<div class="profile-area">
+								<div class="avatar">
+									<img src="./img/avatar/avatar-2.jpg">
+								</div>
+								<div class="info">
+									<h5>Jessica Simpson</h5>
+									<small>Analista</small>
+								</div>
+							</div>
+							<div class="stars">
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+							</div>
+						</div>
+						<p>
+							Lorem ipsum dolor sit, amet consectetur.
+						</p>
+					</div><div class="testimonial swiper-slide">
+						<div class="head">
+							<div class="profile-area">
+								<div class="avatar">
+									<img src="./img/avatar/avatar-3.jpg">
+								</div>
+								<div class="info">
+									<h5>Ryan Kennedy</h5>
+									<small>Engenheiro de Software</small>
+								</div>
+							</div>
+							<div class="stars">
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+							</div>
+						</div>
+						<p>
+							Lorem ipsum dolor sit, amet consectetur.
+						</p>
+					</div><div class="testimonial swiper-slide">
+						<div class="head">
+							<div class="profile-area">
+								<div class="avatar">
+									<img src="./img/avatar/avatar-4.jpg">
+								</div>
+								<div class="info">
+									<h5>Julia Maria</h5>
+									<small>Programadora Senior</small>
+								</div>
+							</div>
+							<div class="stars">
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+								<span class="material-icons-sharp">star_rate</span>
+							</div>
+						</div>
+						<p>
+							Lorem ipsum dolor sit, amet consectetur.
+						</p>
+					</div>
+				</div>
+		
+				<div class="swiper-scrollbar"></div>
+			</div>
+		</section><!-- End of testimonials-------------------->
+
+	</div>
+
+
+	<footer>
+		<div id="rodape">
+			<div class="socials">
+				<span><a href="#"><i class="fab fa-facebook"></i></a></span>
+				<span><a href="#"><i class="fab fa-twitter"></i></a></span>
+				<span><a href="#"><i class="fab fa-instagram"></i></a></span>
+				<span><a href="#"><i class="fab fa-youtube"></i></a></span>
+				<span><a href="#"><i class="fab fa-linkedin"></i></a></span>
+			</div>
+			<ul>
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="sobre.html">SOBRE</a></li>
+				<li><a href="eventos.html">EVENTOS</a>
+				<li><a href="contato.html">CONTATO</a></li>
+			</ul>
+			<address>
+				<span><i class="fa-solid fa-location-dot"></i></span> Rua das Alamedas, 500 - Centro. Belo Horizonte/MG
+				CEP: 32569-900
+				<br><span><i class="fa-solid fa-phone"></i></span> (31) 3333-3333 -
+				<span><i class="fa-solid fa-envelope"></i></span> <span class="mailto"><a
+						href="mailto:workondevweb@hotmail.com">workondevweb.com.br</a></span>
+			</address>
+
+		</div>
+		<div class="copyright">
+			<p id="copy">
+				&copy; <span id="year"></span> - Todos os direitos reservados | Desenvolvido por <span
+					class="dev-name"><a href="https://www.workondevweb.com" target="_blank">WorkOnDevWeb</a></span>
+			</p>
+		</div>
+	</footer>
+
+	<script>
+		// Atualiza o ano automaticamente no copyright
+		document.getElementById('year').textContent = new Date().getFullYear();
+	</script>
+	</footer>
+
+	<!-------Script JS---------------------------------------------------->
+	<script src="js/script.js"></script>
+
+	<!-------------------------SWIPER JS-------------------------------->
+    
+</body>
+
+</html>
